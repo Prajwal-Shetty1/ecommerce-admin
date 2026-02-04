@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Outfit;
+}
+/*NavBar.jsx*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.navbar button {
+  padding: 8px 16px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #e04344;
+}
+/*SideBAR.jsx*/
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  padding-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+   border: 1px solid #e5e7eb;
+  margin: 8px 12px;
+  border-radius: 6px;
+}
+
+.sidebar img {
+  width: 30px;
+}
+
+.sidebar p {
+  margin: 0;
+  font-size: 20px;
+}
+.active{
+    background-color: #ffebf5;
+    border-color: #c586A5 ;
+}
+/*Login.jsx*/
+.admin{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+}
+
+.admin h1{
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-login{
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.credentials{
+  margin-bottom: 15px;
+}
+
+.credentials p{
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.credentials input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.credentials input:focus{
+  border-color: #090909;
+}
+
+.admin-login button{
+  width: 100%;
+  padding: 10px;
+  background: #070707;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+transition: all 0.2s ease;
+}
+
+.admin-login button:hover{
+   background: #090a0a;
+  transform: translateY(-2px);
+}

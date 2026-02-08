@@ -184,7 +184,7 @@ transition: all 0.2s ease;
 }
 
 .add-wrap img {
-  width: 42px;
+  width: 100px;
   opacity: 0.6;
 }
 .form-group {
@@ -227,6 +227,11 @@ transition: all 0.2s ease;
   background: #070707;
   color: #ffffff;
 }
+
+.size-box span.active {
+  background: #070707;
+  color: #ffffff;
+}
 .form-checkbox {
   display: flex;
   align-items: center;
@@ -248,4 +253,57 @@ transition: all 0.2s ease;
 
 .submit-btn:hover {
   transform: translateY(-2px);
+}
+/*List.jsx*/
+.list-page {
+  padding: 20px;
+}
+
+.list-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.list-table-title {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 120px 80px;
+  padding: 12px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.list-table-body {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-table-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 120px 80px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+.list-image {
+  width: 50px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.list-name,
+.list-category,
+.list-price {
+  font-size: 14px;
+}
+.list-action{
+  cursor: pointer;
+  color: red;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.list-action:hover {
+  scale: 1.1;
 }

@@ -307,3 +307,66 @@ transition: all 0.2s ease;
 .list-action:hover {
   scale: 1.1;
 }
+/*Orders.jsx*/
+.orders-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 30px auto;
+}
+.orders-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.order-card {
+  display: grid;
+  grid-template-columns: 80px 1.5fr 1.5fr 1fr;
+  gap: 25px;
+  padding: 25px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background: #fff;
+  align-items: start;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  transition: 0.3s ease;
+}
+.order-icon {
+  width: 60px;
+}
+.order-items {
+  font-size: 14px;
+}
+.order-item {
+  margin-bottom: 6px;
+}
+.order-size {
+  font-weight: 600;
+}
+.order-user {
+  font-size: 14px;
+}
+.user-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.order-details {
+  font-size: 14px;
+}
+.order-amount {
+  font-weight: 600;
+  margin-top: 5px;
+}
+.order-status-select {
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

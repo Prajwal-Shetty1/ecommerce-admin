@@ -35,4 +35,4 @@ It allows administrators to manage products, orders, and overall platform operat
 
 ## 🎥 Demo
 
-<video src="demo.mp4"></video>"></video>" controls width="100%"></video>
+<video src="demo.mp4" controls width="100%"></video>

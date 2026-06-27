@@ -31,6 +31,14 @@ It allows administrators to manage products, orders, and overall platform operat
 * ![Express](https://img.shields.io/badge/Express.js-grey?style=for-the-badge\&logo=express)
 * ![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen?style=for-the-badge\&logo=mongodb)
 
+  ---
+
+## 🎥 Demo
+
+[![Forever E-Commerce Demo](https://img.youtube.com/vi/z1-V24AcPjU/0.jpg)](https://youtu.be/z1-V24AcPjU)
+
+*Click the thumbnail above to watch the full demo on YouTube*
+
 ---
 
 ## 🎥 Demo

@@ -39,8 +39,4 @@ It allows administrators to manage products, orders, and overall platform operat
 
 *Click the thumbnail above to watch the full demo on YouTube*
 
----
 
-## 🎥 Demo
-
-<video src="demo.mp4" controls width="100%"></video>
